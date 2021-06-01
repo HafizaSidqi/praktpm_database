@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".itemjual"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cv_item"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Harian"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:layout_marginStart="@android:dimen/app_icon_size"/>
+
+        <TextView
+            android:id="@+id/tv_iditem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="ID : " />
+
+        <EditText
+            android:id="@+id/et_iditem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="id" />
+
+        <TextView
+            android:id="@+id/tv_tglitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Tanggal : " />
+
+        <EditText
+            android:id="@+id/et_tglitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="tanggal" />
+
+        <TextView
+            android:id="@+id/tv_inputitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Pemasukan Kotor : " />
+
+        <EditText
+            android:id="@+id/et_inputitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Pemasukan Kotor" />
+
+        <TextView
+            android:id="@+id/tv_outputitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Pengeluaran  : " />
+
+        <EditText
+            android:id="@+id/et_outputitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Pengeluaran Hari ini" />
+
+        <TextView
+            android:id="@+id/tv_inputbersih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Pemasukan Bersih : " />
+
+        <EditText
+            android:id="@+id/et_inputbersih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Pemasukan Bersih" />
+
+    </LinearLayout>
+
+</LinearLayout>
